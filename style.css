@@ -11,7 +11,7 @@
         font-family: url(Font/tw-cen-mt-std/TwCenClassMTStd-Regular.otf);
     }
     
-    .dropdown:hover > .dropdown-menu, .dropdown-submenu:hover > .dropdown-menu{
+    .dropdown-submenu:hover > .dropdown-menu{
         display: block;
     }
         
@@ -36,6 +36,10 @@
     .navbar{
         z-index: 3;
     }
+
+    /* .nav-item ul li>a {
+        color: white;
+    } */
 
     .dropdown::after{
         content: '';
@@ -62,7 +66,47 @@
             width: 100%;
             padding: 10px;
         }
+
+        .foot{
+            margin-bottom: 30px;
+        }
+
+        .berita{
+            margin-top: -300px;
+        }
     }
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 40px;
+    height: 40px;
+}
+
+.search-icon{
+    font-size: 1.5rem;
+    color: black;
+    
+}
+
+.search-input{
+    transition: .5s;
+    width: 0px;
+    overflow: hidden;
+}
+
+.search-input input{
+    border: none;
+    outline: none;
+    background-color: unset;
+}
+
+.search-box:hover > .search-input{
+    width: 100%;
+    margin-left: 8px;
+}
 
 .desktop-btn {
     display: block;
