@@ -168,7 +168,7 @@ html,body{
 
 @media screen and (max-width:789px) {
     .mob1 .card {
-        width: 30rem;
+        width: 20rem;
     }
 
     .mob2 .card {
@@ -183,5 +183,15 @@ html,body{
 @media screen and (max-width:789px) {
     .mob3{
         padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:789px) {
+    .mob4 {
+        height: 550px;
+    }
+
+    .mob5 {
+        height: 200px;
     }
 }
