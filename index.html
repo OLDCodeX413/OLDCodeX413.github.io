@@ -484,7 +484,7 @@
                 </div>
                 <div class="foot col-md-4 h-50">
                     <h4 class="mb-5" style="font-weight: bold;">LINK TERKAIT</h4>
-                    <p class="text-start" style="margin-left: 120px;">
+                    <p class="">
                         <img src="Icon/ph_dot-bold.png" alt="">
                         <a href="https://kemahasiswaan.unri.ac.id/news/category/Beasiswa" type="button" class="text-white" style="text-decoration: none;">Beasiswa</a><br>
                         <img src="Icon/ph_dot-bold.png" alt="">
@@ -500,8 +500,24 @@
     <div class="copyright bg-dark">
         <div class="copymenu mx-3" style="display: flex; justify-content: space-between; font-size: 15px; color: white;">
             <div class="col-6 d-inline">Copyright 2023</div>
-            <div class="col-6 d-inline text-end">Monday, 13 January 2023</div>
+            <div class="col-6 d-inline text-end">
+                <p><span id="tanggalwaktu"></span></p>
+            </div>
         </div>
     </div>
+
+    <script>
+        var tw = new Date();
+        if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+        else (a=tw.getTime());
+        tw.setTime(a);
+        var tahun= tw.getFullYear ();
+        var hari= tw.getDay ();
+        var bulan= tw.getMonth ();
+        var tanggal= tw.getDate ();
+        var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
+        var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
+        document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes() + ":" + ((tw.getSeconds() < 10)? "0" : "") + tw.getSeconds();
+    </script>
 </body>
 </html>
