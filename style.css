@@ -88,7 +88,6 @@
 .search-icon{
     font-size: 1.5rem;
     color: black;
-    
 }
 
 .search-input{
@@ -194,4 +193,29 @@ html,body{
     .mob5 {
         height: 200px;
     }
+}
+
+/* halaman berita/postingan */
+
+.ber1{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.title-section2::after {
+    content: "";
+    width: 400px;
+    height: 4px;
+    background-color: #C99353;
+    display: block;
+    margin: 10px 38%;
+}
+
+.name{
+    color: gray;
+}
+
+.berita1desk{
+    margin: 130px;
+    text-align: justify;
 }
