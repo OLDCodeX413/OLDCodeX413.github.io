@@ -201,28 +201,48 @@ html,body{
     font-size: 30px;
     margin-top: 50px;
 }
-
 .title-section2::after {
     content: "";
     width: 400px;
     height: 4px;
     background-color: #C99353;
-    display: block;
-    margin: 10px 38%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
-
-.name{
+.title-section2{
+    display: grid;
+    place-items: center;
+}
+.nameimg p{
     color: gray;
+    margin-top: 10px;
 }
 
 .berita1desk{
-    margin: 130px;
+    margin: 50px 130px;
     text-align: justify;
 }
-
+@media screen and (max-width:789px){
+    .berita1desk{
+        margin: 50px;
+    }
+    .berita1 .img2{
+        width: 80%;
+        height: auto;
+    }
+}
 .row1{
     display: grid;
     place-items: center;
+}
+.berita1 .img1{
+    width: 80%;
+    height: auto;
+}
+.tgl{
+    margin-bottom: 50px;
 }
 
 /* sosial media */
@@ -232,4 +252,89 @@ html,body{
     height: 100%;
     width: 100%;
     place-items: center;
+}
+.sosmed-wrapper{
+    display: inline-flex;
+}
+.sosmed-body::after{
+    content: "";
+    width: 350px;
+    height: 4px;
+    background-color: #E0D2C2;
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
+}
+.sosmed-wrapper .icon{
+    margin: 0 20px 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.sosmed-wrapper .icon span{
+    position: relative;
+    z-index: 2;
+}
+.sosmed-wrapper .icon span a{
+    text-decoration: none;
+}
+.sosmed-wrapper .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.sosmed-name{
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.sosmed-wrapper .icon:hover .sosmed-name{
+    top: -40px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.sosmed-name::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.sosmed-wrapper span i{
+    color: #C99353;
+}
+.sosmed-wrapper .facebook:hover .sosmed-name,
+.sosmed-wrapper .facebook:hover .sosmed-name::before{
+    background: #3b5998;
+}
+.sosmed-wrapper .linkedin:hover .sosmed-name,
+.sosmed-wrapper .linkedin:hover .sosmed-name::before{
+    background: #0e76a8;
+}
+.sosmed-wrapper .pinterest:hover .sosmed-name,
+.sosmed-wrapper .pinterest:hover .sosmed-name::before{
+    background: #c8232c;
+}
+.sosmed-wrapper .twitter:hover .sosmed-name,
+.sosmed-wrapper .twitter:hover .sosmed-name::before{
+    background: #00acee;
+}
+.sosmed-wrapper .email:hover .sosmed-name,
+.sosmed-wrapper .email:hover .sosmed-name::before{
+    background: #ff6a6a;
 }
