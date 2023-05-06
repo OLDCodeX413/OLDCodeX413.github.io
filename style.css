@@ -219,3 +219,17 @@ html,body{
     margin: 130px;
     text-align: justify;
 }
+
+.row1{
+    display: grid;
+    place-items: center;
+}
+
+/* sosial media */
+
+.sosmed-body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
