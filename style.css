@@ -252,6 +252,7 @@ html,body{
     height: 100%;
     width: 100%;
     place-items: center;
+    margin-top: 80px;
 }
 .sosmed-wrapper{
     display: inline-flex;
@@ -337,4 +338,19 @@ html,body{
 .sosmed-wrapper .email:hover .sosmed-name,
 .sosmed-wrapper .email:hover .sosmed-name::before{
     background: #ff6a6a;
+}
+
+/* berita lainnya */
+.containerberita{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.wrap img{
+    float: left;
+    margin-right: 15px;
+}
+.wrap a{
+    text-decoration: none;
+    color: black;
 }
