@@ -237,7 +237,7 @@ html,body{
     display: grid;
     place-items: center;
 }
-.berita1 .img1{
+.judul .img1{
     width: 80%;
     height: auto;
 }
@@ -353,4 +353,52 @@ html,body{
 .wrap a{
     text-decoration: none;
     color: black;
+}
+
+/* kontak */
+.gmaps, .alamat, .kontak{
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin: 50px 50px 30px 100px;
+}
+.title-section3::after {
+    content: "";
+    width: 300px;
+    height: 4px;
+    background-color: #C99353;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.map{
+    margin: 0px 0px 100px 100px;
+}
+.alamat-desk, .kontak-desk{
+    font-weight: 500;
+    margin: 0px 100px;
+}
+@media screen and (min-width:1360px){
+    .mobile-kontak{
+        display: none;
+    }
+}
+@media screen and (max-width:1360px){
+    .mobile-kontak{
+        display: grid;
+        place-items: center;
+    }
+    .map, .alamat-desk, .kontak-desk{
+        margin: 0px 0px 30px 0px;
+    }
+    .container-fluid{
+        display: none;
+    }
+    .map{
+        width: 85%;
+    }
+    .alamat-desk, .kontak-desk{
+        margin-left: 50px;
+    }
 }
