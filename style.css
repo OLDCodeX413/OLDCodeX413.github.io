@@ -356,7 +356,7 @@ html,body{
 }
 
 /* kontak */
-.gmaps, .alamat, .kontak{
+.gmaps, .alamat, .kontak, .akreditasi, .mikrotik, .foto1{
     font-size: 25px;
     margin-top: 50px;
     font-weight: bold;
