@@ -1,7 +1,7 @@
-    /* @font-face {
-        font-family: font1;
-        src: url(Font/source_sans/SourceSansPro-Regular.ttf);
-    } */
+*{
+    margin: 0;
+    padding: 0;
+}
 
     nav, konten{
         font-family: url(Font/source_sans/SourceSansPro-Regular.ttf);;
@@ -203,7 +203,7 @@ html,body{
 }
 .title-section2::after {
     content: "";
-    width: 400px;
+    width: 300px;
     height: 4px;
     background-color: #C99353;
     display: grid;
@@ -461,4 +461,47 @@ html,body{
 .videodesktop{
     margin-top: 50px;
     margin-bottom: 80px;
+}
+
+/* visi dan misi */
+.visimisi::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    background-color: #C99353;
+    display: block;
+    margin-top: 15px;
+}
+.visimisi{
+    margin-left: 130px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.visi, .misi{
+    margin: 20px 130px 50px 130px;
+    text-align: justify;
+}
+.misi li{
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+@media screen and (max-width:720px){
+    .visimisi{
+        margin-left: 70px;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .visi, .misi{
+        margin: 20px 70px 50px 70px;
+        text-align: justify;
+    }
+    .misi li{
+        margin-bottom: 10px;
+        margin-left: -15px;
+    }
+}
+.videopage{
+    margin-bottom: 100px;
 }
