@@ -356,7 +356,7 @@ html,body{
 }
 
 /* kontak */
-.gmaps, .alamat, .kontak, .akreditasi, .mikrotik, .foto1{
+.gmaps, .alamat, .kontak, .akreditasi, .mikrotik, .foto1, .vt, .video, .akreditasi2{
     font-size: 25px;
     margin-top: 50px;
     font-weight: bold;
@@ -400,5 +400,59 @@ html,body{
     }
     .alamat-desk, .kontak-desk{
         margin-left: 50px;
+    }
+}
+
+/* Virtual Tour */
+
+.vt_box{
+    margin: 0px 0px 100px 100px;
+}
+
+@media screen and (min-width:1360px){
+    .mobile-vt{
+        display: none;
+    }
+}
+@media screen and (max-width:1360px){
+    .mobile-vt{
+        display: grid;
+        place-items: center;
+    }
+    .vt_box{
+        margin: 0px 0px 30px 0px;
+    }
+    .container-fluid{
+        display: none;
+    }
+    .vt_box{
+        width: 85%;
+    }
+}
+
+/* VIDEO */
+
+.video_box{
+    margin: 0px 0px 100px 100px;
+}
+
+@media screen and (min-width:1360px){
+    .mobile-video{
+        display: none;
+    }
+}
+@media screen and (max-width:1360px){
+    .mobile-video{
+        display: grid;
+        place-items: center;
+    }
+    .video_box{
+        margin: 0px 0px 30px 0px;
+    }
+    .container-fluid{
+        display: none;
+    }
+    .video_box{
+        width: 85%;
     }
 }
