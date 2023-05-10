@@ -515,3 +515,22 @@ html,body{
         margin: 50px 70px 0px 70px;
     }
 }
+
+/* dosen */
+.daftardosen{
+    margin: 100px 90px 100px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.daftardosen img{
+    border-radius: 50%;
+    margin-right: 80px;
+}
+.wrap1 img{
+    float: left;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+.wrap1{
+    width: 100%;
+}
