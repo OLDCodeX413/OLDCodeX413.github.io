@@ -534,3 +534,61 @@ html,body{
 .wrap1{
     width: 100%;
 }
+/*  */
+.member{
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.member img{
+    border-radius: 50%;
+    width: 180px;
+    margin-top: 20px;
+}
+.member-info{
+    padding-left: 30px;
+}
+.member-info .namadosen{
+    font-size: 20px;
+}
+.member-info .namadosen::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #525252;
+}
+.member-info .m-0{
+    color: #8F8166;
+    font-weight: 700;
+}
+.member-info span{
+    font-weight: 500;
+}
+.judul .row{
+    margin: 0px 70px 0px 70px;
+}
+@media screen and (max-width:720px){
+    .member{
+        padding: 30px;
+        border-radius: 20px;
+        background-color: white;
+        display: block;
+        text-align: center;
+    }
+    .member-info{
+        padding-left: 0px;
+    }
+    .member-info .namadosen::after{
+        display: none;
+    }
+    .member img{
+        margin-bottom: 20px;
+    }
+}
