@@ -517,24 +517,6 @@ html,body{
 }
 
 /* dosen */
-.daftardosen{
-    margin: 100px 90px 100px 90px;
-    display: flex;
-    justify-content: space-between;
-}
-.daftardosen img{
-    border-radius: 50%;
-    margin-right: 80px;
-}
-.wrap1 img{
-    float: left;
-    margin-right: 20px;
-    margin-left: 25px;
-}
-.wrap1{
-    width: 100%;
-}
-/*  */
 .member{
     position: relative;
     padding: 30px;
@@ -545,7 +527,7 @@ html,body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.member img{
+.member img, .member1 img{
     border-radius: 50%;
     width: 180px;
     margin-top: 20px;
@@ -553,7 +535,7 @@ html,body{
 .member-info{
     padding-left: 30px;
 }
-.member-info .namadosen{
+.member-info .namadosen, .namatenaga{
     font-size: 20px;
 }
 .member-info .namadosen::after{
@@ -564,7 +546,7 @@ html,body{
     height: 2px;
     background: #525252;
 }
-.member-info .m-0{
+.member-info .m-0, .member1-info .m-0{
     color: #8F8166;
     font-weight: 700;
 }
@@ -585,10 +567,28 @@ html,body{
     .member-info{
         padding-left: 0px;
     }
-    .member-info .namadosen::after{
+    .member-info .namadosen::after, .member-info .namatenaga::after{
         display: none;
     }
     .member img{
         margin-bottom: 20px;
     }
+}
+
+/* tenaga kependidikan */
+.member1{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+.member1-info{
+    padding-left: 0px;
+}
+.member1-info .namatenaga::after{
+    display: none;
+}
+.member1 img{
+    margin-bottom: 20px;
 }
