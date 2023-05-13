@@ -592,3 +592,16 @@ html,body{
 .member1 img{
     margin-bottom: 20px;
 }
+
+/* laboratorium komputer dan jaringan */
+.jarkom{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.jarkomdesk{
+    text-align: justify;
+    font-size: large;
+}
+
+/* laboratorium Rekayasa Perangkat Lunak */
