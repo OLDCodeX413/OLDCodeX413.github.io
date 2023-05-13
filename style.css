@@ -403,64 +403,55 @@ html,body{
     }
 }
 
+/* foto */
+
+.mobile-foto{
+    display: none;
+}
+
+@media screen and (min-width:996px){
+    .mobile-foto{
+        display: block;
+    }
+}
+
+.desktop-foto{
+    display: block;
+}
+
+@media screen and (min-width:996px){
+    .desktop-foto{
+        display: none;
+    }
+}
+
 /* Virtual Tour */
 
 .vt_box{
-    margin: 0px 0px 100px 100px;
+    margin-left: -50px;
+    margin-right: -50px;
 }
 
-@media screen and (min-width:1360px){
-    .mobile-vt{
-        display: none;
+@media screen and (min-width:1080px){
+    .vt_box{
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
-@media screen and (max-width:1360px){
-    .mobile-vt{
-        display: grid;
-        place-items: center;
-    }
-    .vt_box{
-        margin: 0px 0px 30px 0px;
-    }
-    .container-fluid{
-        display: none;
-    }
-    .vt_box{
-        width: 85%;
-    }
-}
+
 
 /* VIDEO */
 
 .video_box{
-    margin: 0px 0px 100px 100px;
+    margin-left: -50px;
+    margin-right: -50px;
 }
 
-@media screen and (min-width:1360px){
-    .mobile-video{
-        display: none;
-    }
-}
-@media screen and (max-width:1360px){
-    .mobile-video{
-        display: grid;
-        place-items: center;
-    }
+@media screen and (min-width:1080px){
     .video_box{
-        margin: 0px 0px 30px 0px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-    .container-fluid{
-        display: none;
-    }
-    .video_box{
-        width: 85%;
-        margin-bottom: 80px;
-        margin-top: 20px;
-    }
-}
-.videodesktop{
-    margin-top: 50px;
-    margin-bottom: 80px;
 }
 
 /* visi dan misi */
@@ -605,3 +596,12 @@ html,body{
 }
 
 /* laboratorium Rekayasa Perangkat Lunak */
+.rpl{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rpldesk{
+    text-align: justify;
+    font-size: large;
+}
