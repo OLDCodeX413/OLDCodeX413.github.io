@@ -356,12 +356,13 @@ html,body{
 }
 
 /* kontak */
-.gmaps, .alamat, .kontak, .akreditasi, .mikrotik, .foto1, .vt, .video, .akreditasi2{
+.gmaps, .alamat, .kontak, .mikrotik, .foto1, .vt, .video, .akreditasi{
     font-size: 25px;
     margin-top: 50px;
     font-weight: bold;
     margin: 50px 50px 30px 100px;
 }
+
 .title-section3::after {
     content: "";
     width: 300px;
@@ -405,7 +406,7 @@ html,body{
 
 /* foto */
 
-.mobile-foto{
+/* .mobile-foto{
     display: none;
 }
 
@@ -423,6 +424,283 @@ html,body{
     .desktop-foto{
         display: none;
     }
+} */
+
+/* foto */
+
+.cprev,.cprev2,.cprev3,.cprev4,.cprev5,.cprev6{
+    display: none;
+}
+
+.cprevM1,.cprevM2,.cprevM3,.cprevM4,.cprevM5,.cprevM6{
+    display: none;
+}
+
+.cnext,.cnext2,.cnext3,.cnext4,.cnext5,.cnext6{
+    display: none;
+}
+
+.cnextM1,.cnextM2,.cnextM3,.cnextM4,.cnextM5,.cnextM6{
+    display: none;
+}
+
+.desktop-foto,.desktop-foto2{
+    display: none;
+}
+
+.desktop-foto3,.desktop-foto4,.desktop-foto5,.desktop-foto6{
+    display: none;
+}
+
+@media screen and (min-width:1200px){
+    .cprev{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 375px; 
+        margin-bottom: 150px;
+    }
+
+    .cnext{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 375px; 
+        margin-bottom: 150px;
+    }
+
+    .cprevM1{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 775px; 
+        margin-bottom: 150px;
+    }
+
+    .cnextM1{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 775px; 
+        margin-bottom: 150px;
+    }
+
+    .desktop-foto{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+    .cprev2{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 350px; 
+        margin-bottom: 150px;
+    }
+
+    .cnext2{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 350px; 
+        margin-bottom: 150px;
+    }
+
+    .cprevM2{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 730px; 
+        margin-bottom: 150px;
+    }
+
+    .cnextM2{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 730px; 
+        margin-bottom: 150px;
+    }
+
+    .desktop-foto2{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .cprev3{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 360px; 
+        margin-bottom: 150px;
+    }
+
+    .cnext3{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 360px; 
+        margin-bottom: 150px;
+    }
+
+    .cprevM3{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 710px; 
+        margin-bottom: 150px;
+    }
+
+    .cnextM3{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 710px; 
+        margin-bottom: 150px;
+    }
+
+    .desktop-foto3{
+        display: block;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .cprev4{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 360px; 
+        margin-bottom: 150px;
+        margin-left: 50px;
+    }
+
+    .cnext4{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 360px; 
+        margin-bottom: 150px;
+        margin-right:50px;
+    }
+
+    .cprevM4{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 730px; 
+        margin-bottom: 150px;
+        margin-left: 50px;
+    }
+
+    .cnextM4{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 730px; 
+        margin-bottom: 150px;
+        margin-right:50px;
+    }
+
+    .desktop-foto4{
+        display: block;
+    }
+}
+
+@media screen and (max-width:575px) and (min-width:433px){
+    .cprev5{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 360px; 
+        margin-bottom: 150px;
+        margin-left: 50px;
+    }
+
+    .cnext5{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 360px; 
+        margin-bottom: 150px;
+        margin-right:50px;
+    }
+
+    .cprevM5{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 720px; 
+        margin-bottom: 150px;
+        margin-left: 50px;
+    }
+
+    .cnextM5{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 720px; 
+        margin-bottom: 150px;
+        margin-right:50px;
+    }
+
+    .desktop-foto5{
+        display: block;
+    }
+}
+
+@media screen and (max-width:432px){
+    .cprev6{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 350px; 
+        margin-bottom: 150px;
+        margin-left: 15px;
+    }
+
+    .cnext6{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 350px; 
+        margin-bottom: 150px;
+        margin-right:15px;
+    }
+
+    .cprev6{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 690px; 
+        margin-bottom: 150px;
+        margin-left: 15px;
+    }
+
+    .cnext6{
+        display: block;
+        width: 150px; 
+        height: 150px; 
+        margin-top: 690px; 
+        margin-bottom: 150px;
+        margin-right:15px;
+    }
+
+    .desktop-foto6{
+        display: block;
+    }
+}
+
+.akreditasi3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.akreditasi2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 50px 30px 100px;
 }
 
 /* Virtual Tour */
