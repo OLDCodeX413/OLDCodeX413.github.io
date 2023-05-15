@@ -356,7 +356,7 @@ html,body{
 }
 
 /* kontak */
-.gmaps, .alamat, .kontak, .mikrotik, .foto1, .vt, .video, .akreditasi{
+.gmaps, .alamat, .kontak, .mikrotik, .foto1, .vt, .video, .akreditasi.catber{
     font-size: 25px;
     margin-top: 50px;
     font-weight: bold;
@@ -914,7 +914,6 @@ html,body{
 }
 
 .barpad {
-    padding-top: 60px;
     padding-bottom: 40px;
 }
 
@@ -971,4 +970,82 @@ html,body{
 .wrap2 a{
     text-decoration: none;
     color: black;
+}
+
+.bagiankonten {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.bagiankonten2 {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+.title-section4::after {
+    content: "";
+    width: 150px;
+    height: 4px;
+    background-color: #C99353;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.title-section4{
+    display: grid;
+    place-items: center;
+}
+
+.titlehead4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.title-section5::after {
+    content: "";
+    width: 300px;
+    height: 4px;
+    background-color: #C99353;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.title-section5{
+    display: grid;
+}
+
+@media screen and (max-width: 991px){
+    .title-section5::after {
+        content: "";
+        width: 300px;
+        height: 4px;
+        background-color: #C99353;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .title-section5{
+        display: grid;
+        place-items: center;
+    }
+}
+
+.imgcont {
+    height: 300px;
+}
+
+@media screen and (max-width: 991px){
+    .imgcont{
+        height: 100%;
+    }
+}
+
+.barwidth{
+    width: 50px;
 }
