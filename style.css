@@ -676,10 +676,17 @@ html,body{
     color: gray;
     margin-top: 10px;
 }
-
+.nameimg2 img{
+    width: 60%;
+    height: auto;
+}
 .berita1desk, .jadwalseminar{
     margin: 50px 130px;
     text-align: justify;
+}
+.berita1desk span{
+    font-size: 18px;
+    font-weight: bold;
 }
 @media screen and (max-width:700px){
     .berita1desk, .jadwalseminar{
@@ -698,8 +705,18 @@ html,body{
     width: 80%;
     height: auto;
 }
+.judul .postermahasiswa{
+    width: 30%;
+    height: auto;
+}
 .tgl{
     margin-bottom: 50px;
+}
+@media screen and (max-width:690px){
+    .judul .postermahasiswa{
+        width: 50%;
+        height: auto;
+    }
 }
 
 /* sosial media */
