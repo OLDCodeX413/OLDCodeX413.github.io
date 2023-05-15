@@ -266,7 +266,7 @@ html,body{
     box-shadow: 3px 3px 20px black;
 }
 .box-home{
-    margin-top: 18%;
+    margin-top: 14%;
 }
 .background-clip{
     position: absolute;
@@ -305,7 +305,7 @@ html,body{
         color: black;
         text-decoration: none;
         background-color: white;
-        padding: 15px;
+        padding: 10px;
         border-radius: 20px;
         font-weight: bold;
         display:inline-block;
@@ -315,7 +315,7 @@ html,body{
         justify-content: center;
     }
     .box-home{
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
 
@@ -324,7 +324,6 @@ html,body{
     box-sizing: border-box;
 }
 .ber2{
-    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
