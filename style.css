@@ -1481,7 +1481,7 @@ html,body{
 
 .title-section5::after {
     content: "";
-    width: 300px;
+    width: 550px;
     height: 4px;
     background-color: #C99353;
     display: grid;
