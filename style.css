@@ -378,6 +378,10 @@ html,body{
 .artikel_berita2 h4{
     font-weight: bold;
 }
+.artikel_berita2 a{
+    text-decoration: none;
+    color: black;
+}
 @media(max-width: 988px){
 
     .btn_selengkapnya{
@@ -515,6 +519,9 @@ html,body{
     color: #686868;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+.artikel_prestasi .judulpres{
+    color: black;
 }
 .artikel_prestasi a{
     text-decoration: none;
