@@ -61,16 +61,6 @@
     }
 
     @media (max-width: 992px){
-        .footer, .footer .container, .footer .row, .footer .col-4{
-            display: block;
-            width: 100%;
-            padding: 10px;
-        }
-
-        .foot{
-            margin-bottom: 30px;
-        }
-
         .berita{
             margin-top: -300px;
         }
@@ -183,16 +173,6 @@ h2.title-section::after {
     }
 
     @media (max-width: 992px){
-        .footer, .footer .container, .footer .row, .footer .col-4{
-            display: block;
-            width: 100%;
-            padding: 10px;
-        }
-
-        .foot{
-            margin-bottom: 30px;
-        }
-
         .berita{
             margin-top: -300px;
         }
@@ -597,7 +577,7 @@ html,body{
 
 /* footer */
 .footer{
-    background-color: black;
+    margin-bottom: -30px;
 }
 .footer2 img{
     width: 100px;
@@ -657,6 +637,13 @@ html,body{
         font-weight: bold;
         margin-top: 70px;
     }
+}
+.copymenu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: white;
+    align-items: center;
 }
 
 /* halaman berita/postingan */
