@@ -224,11 +224,11 @@ html,body{
     margin: 50px 130px;
     text-align: justify;
 }
-@media screen and (max-width:789px){
+@media screen and (max-width:700px){
     .berita1desk{
         margin: 50px;
     }
-    .berita1 .img2{
+    .nameimg .img2{
         width: 80%;
         height: auto;
     }
