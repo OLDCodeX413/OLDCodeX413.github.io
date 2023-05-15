@@ -677,12 +677,12 @@ html,body{
     margin-top: 10px;
 }
 
-.berita1desk{
+.berita1desk, .jadwalseminar{
     margin: 50px 130px;
     text-align: justify;
 }
 @media screen and (max-width:700px){
-    .berita1desk{
+    .berita1desk, .jadwalseminar{
         margin: 50px;
     }
     .nameimg .img2{
