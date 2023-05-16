@@ -1444,3 +1444,64 @@ html,body{
 .barwidth{
     width: 50px;
 }
+
+/* sejarah */
+.sejarah1 img{
+    width: 800px;
+    height: auto;
+    margin-right: 30px;
+}
+.visi2{
+    margin: 70px 130px -20px 130px;
+    text-align: justify;
+    display: flex;
+}
+@media screen and (min-width: 1270px){
+    .sejarah1 img{
+        width: 600px;
+        height: auto;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 1270px){
+    .sejarah1 img{
+        width: 700px;
+        height: auto;
+        display: block;
+        margin-bottom: 30px;
+        margin-left: 15%;
+    }
+    .visi2{
+        margin: 20px 130px 30px 130px;
+        text-align: justify;
+        display: block;
+    }
+    .visi{
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 1076px){
+    .sejarah1 img{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 990px){
+    .sejarah1 img{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 889px){
+    .sejarah1 img{
+        margin-left: 0%;
+    }
+    .judul .sejarah1 img{
+        width: 80%;
+        height: auto;
+        margin-left: 40px;
+    }
+    .visi2{
+        margin: 20px 70px 30px 70px;
+        text-align: justify;
+        display: block;
+    }
+}
