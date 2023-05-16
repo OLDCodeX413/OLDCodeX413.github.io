@@ -643,6 +643,12 @@ html,body{
         font-weight: bold;
         margin-top: 70px;
     }
+    .footer .kat2{
+        padding-bottom: 50px;
+    }
+    .footer .kat3{
+        padding-top: 30px;
+    }
 }
 .copymenu{
     display: flex;
