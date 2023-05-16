@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+    html a:hover {
+        color: #C99353;
+    }
+    .berita_lainnya:hover{
+        color: white;
+    }
     nav, konten{
         font-family: url(Font/source_sans/SourceSansPro-Regular.ttf);;
     }
