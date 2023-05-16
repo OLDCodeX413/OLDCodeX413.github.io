@@ -1541,21 +1541,3 @@ html,body{
       height: 300px;
     }
   }
-<<<<<<< HEAD
-
-.mikrotikdesk{
-    margin: 25px 100px;
-    text-align: justify;
-}
-.mikrotikdesk span{
-    font-size: 18px;
-    font-weight: bold;
-}
-@media screen and (max-width:700px){
-    .mikrotikdesk{
-        margin: 25px;
-    }
-}
-  
-=======
->>>>>>> 0370828c5d7bb0ccec4161789f5b7d1142252725
