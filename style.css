@@ -1523,3 +1523,30 @@ html,body{
 .barwidth{
     width: 50px;
 }
+
+/* Kurikulum */
+.kurikulum{
+    height: 100%;
+  }
+  
+  .kurikulum-konten{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .kurikulum-konten embed{
+    width: 71%;
+    height: 500px;
+    border: 3px solid #1a1919;
+  }
+  
+  @media(max-width:545px){
+    .kurikulum-konten embed{
+      width: 80%;
+      height: 300px;
+    }
+  }
+
+  
