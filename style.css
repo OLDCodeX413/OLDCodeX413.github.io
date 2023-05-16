@@ -206,6 +206,11 @@ html,body{
         margin-top: 5%;
     }
 }
+@media(max-width: 1280px){
+    .box-home{
+        margin-top: 10%;
+    }
+}
 
 /* artikel_berita */
 .container{
@@ -752,22 +757,29 @@ html,body{
 }
 .map{
     margin: 0px 0px 100px 100px;
+    width : 500px;
+    height : 700px;
 }
 .alamat-desk, .kontak-desk{
     font-weight: 500;
     margin: 0px 100px;
 }
-@media screen and (min-width:1360px){
+@media screen and (max-width:1280px){
     .mobile-kontak{
         display: none;
     }
 }
-@media screen and (max-width:1360px){
+@media screen and (min-width:1280px){
+    .mobile-kontak{
+        display: none;
+    }
+}
+@media screen and (max-width:1046px){
     .mobile-kontak{
         display: grid;
         place-items: center;
     }
-    .map, .alamat-desk, .kontak-desk{
+    .map{
         margin: 0px 0px 30px 0px;
     }
     .container-fluid{
@@ -777,13 +789,19 @@ html,body{
         width: 85%;
     }
     .alamat-desk, .kontak-desk{
-        margin-left: 50px;
+        margin: 0px 0px;
+    }
+    .gmaps, .alamat, .kontak{
+        margin: 50px 0px 30px 0px;
+    }
+    .kontak-desk{
+        margin-bottom: 50px;
     }
 }
 
 /* foto */
 
-/* .mobile-foto{
+.mobile-foto{
     display: none;
 }
 
@@ -801,7 +819,7 @@ html,body{
     .desktop-foto{
         display: none;
     }
-} */
+}
 
 /* foto */
 
