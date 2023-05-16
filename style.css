@@ -1445,6 +1445,7 @@ html,body{
     width: 50px;
 }
 
+<<<<<<< HEAD
 /* sejarah */
 .sejarah1 img{
     width: 800px;
@@ -1505,3 +1506,31 @@ html,body{
         display: block;
     }
 }
+=======
+/* Kurikulum */
+.kurikulum{
+    height: 100%;
+  }
+  
+  .kurikulum-konten{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .kurikulum-konten embed{
+    width: 71%;
+    height: 500px;
+    border: 3px solid #1a1919;
+  }
+  
+  @media(max-width:545px){
+    .kurikulum-konten embed{
+      width: 80%;
+      height: 300px;
+    }
+  }
+
+  
+>>>>>>> ce17f983548e7ccabf144684e5c68066a7c20926
