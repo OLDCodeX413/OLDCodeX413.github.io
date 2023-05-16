@@ -1098,6 +1098,17 @@ html,body{
     margin: 0px 50px 30px 100px;
 }
 
+.mikrotik{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 50px 30px 100px;
+}
+
+.mikrotik2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* Virtual Tour */
 
 .vt_box{
@@ -1470,4 +1481,17 @@ html,body{
     }
   }
 
+.mikrotikdesk{
+    margin: 25px 100px;
+    text-align: justify;
+}
+.mikrotikdesk span{
+    font-size: 18px;
+    font-weight: bold;
+}
+@media screen and (max-width:700px){
+    .mikrotikdesk{
+        margin: 25px;
+    }
+}
   
