@@ -113,6 +113,12 @@ h2.title-section::after {
 html,body{
     overflow-x: hidden;
 }
+html a:hover, .judulpres h4:hover{
+    color: #C99353;
+}
+.berita_lainnya:hover{
+    color: white;
+}
 
 /* beranda */
 .home{
