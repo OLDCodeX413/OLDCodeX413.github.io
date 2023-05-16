@@ -829,6 +829,11 @@ html,body{
     color: black;
 }
 
+/* artikel prestasi */
+.hakim .img1{
+    width: 50%;
+}
+
 /* kontak */
 .gmaps, .alamat, .kontak, .mikrotik, .foto1, .vt, .video, .akreditasi.catber{
     font-size: 25px;
