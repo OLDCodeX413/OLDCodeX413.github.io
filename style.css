@@ -1541,3 +1541,17 @@ html,body{
       height: 300px;
     }
   }
+  
+.mikrotikdesk{
+    margin: 25px 100px;
+    text-align: justify;
+}
+.mikrotikdesk span{
+    font-size: 18px;
+    font-weight: bold;
+}
+@media screen and (max-width:700px){
+    .mikrotikdesk{
+        margin: 25px;
+    }
+}
