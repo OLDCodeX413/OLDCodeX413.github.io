@@ -1493,9 +1493,6 @@ html a:hover, .judulpres h4:hover{
         text-align: justify;
         display: block;
     }
-    .visi{
-        margin-top: -50px;
-    }
 }
 @media screen and (max-width: 1076px){
     .sejarah1 img{
